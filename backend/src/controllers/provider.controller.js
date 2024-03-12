@@ -127,11 +127,7 @@ const getAllServiceProviders = asyncHandler(async (req, res) => {
 
 export {
   registerProvider,
-  loginProvider,
-  logoutProvider,
-  refreshProviderAccessToken,
-  changeProviderPassword,
-  updateProviderAccountDetails,
-  updateProviderAvatar,
-  deleteService
+  getCurrentProvider,
+  updateServiceRatingAndReview,
+  getAllServiceProviders,
 };
