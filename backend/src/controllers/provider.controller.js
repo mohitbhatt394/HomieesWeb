@@ -131,10 +131,7 @@ export {
   logoutProvider,
   refreshProviderAccessToken,
   changeProviderPassword,
-  getCurrentProvider,
   updateProviderAccountDetails,
   updateProviderAvatar,
-  deleteService,
-  updateServiceRatingAndReview,
-  getAllServiceProviders,
+  deleteService
 };
